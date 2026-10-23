@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ultimate Plumbing Corporation | Plumber in Monroe, NY</title>
+<meta name="description" content="Ultimate Plumbing Corporation is a local plumber in Monroe, Orange County, NY. Call (845) 469-1995.">
+<style>
+:root{
+  --ink:#0e2a47; --text:#1d2b3a; --muted:#52657a; --bg:#f6f8fa; --card:#ffffff;
+  --line:#d5dee7; --water:#0f7ea0; --brass:#f2b632; --on-brass:#1a1405;
+}
+@media (prefers-color-scheme:dark){
+  :root{--ink:#071a2e; --text:#e6edf4; --muted:#9db0c3; --bg:#0b1624; --card:#122338; --line:#25405c; --water:#4cc3e6;}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;font:17px/1.6 "Segoe UI",system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;color:var(--text);background:var(--bg)}
+h1,h2,h3{font-family:"Archivo Narrow","Arial Narrow","Franklin Gothic Medium",Impact,sans-serif;line-height:1.1;margin:0}
+a{color:inherit}
+a:focus-visible,.btn:focus-visible{outline:3px solid var(--brass);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+
+header.top{background:var(--ink);color:#fff}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:14px;padding-bottom:14px}
+.brand{font-family:"Archivo Narrow","Arial Narrow",Impact,sans-serif;font-size:1.35rem;font-weight:700;text-decoration:none;letter-spacing:.2px}
+.top nav{display:flex;gap:20px;align-items:center}
+.top nav a{text-decoration:none;font-size:.95rem;opacity:.9}
+.top nav a:hover{opacity:1;text-decoration:underline}
+.btn{display:inline-block;background:var(--brass);color:var(--on-brass);font-weight:700;text-decoration:none;padding:12px 22px;border-radius:6px}
+.btn:hover{filter:brightness(1.07)}
+.btn.ghost{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.5)}
+
+.hero{background:var(--ink);color:#fff;padding:56px 0 72px;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:10px;background:repeating-linear-gradient(90deg,var(--water) 0 60px,transparent 60px 72px)}
+.hero h1{font-size:clamp(2.4rem,7vw,4.4rem);font-weight:800;max-width:14ch}
+.hero p{max-width:52ch;font-size:1.1rem;opacity:.92;margin:18px 0 28px}
+.phone{display:block;font-family:"Archivo Narrow","Arial Narrow",Impact,sans-serif;font-size:clamp(2.2rem,8vw,3.6rem);font-weight:800;color:var(--brass);text-decoration:none;margin-bottom:20px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+
+section{padding:60px 0}
+section h2{font-size:clamp(1.8rem,4vw,2.5rem);margin-bottom:10px;color:var(--ink)}
+@media (prefers-color-scheme:dark){section h2{color:var(--text)}}
+.lead{color:var(--muted);max-width:56ch;margin:0 0 28px}
+
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:0;border-top:2px solid var(--ink);border-left:1px solid var(--line)}
+@media (prefers-color-scheme:dark){.services{border-top-color:var(--water)}}
+.services div{padding:20px 22px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--card)}
+.services h3{font-size:1.3rem;margin-bottom:6px;color:var(--water)}
+.services p{margin:0;font-size:.97rem;color:var(--muted)}
+
+.split{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+@media (max-width:760px){.split{grid-template-columns:1fr}.top nav a.hide{display:none}}
+.about p{margin:0 0 14px}
+.facts{list-style:none;margin:20px 0 0;padding:0}
+.facts li{padding:10px 0;border-bottom:1px solid var(--line)}
+.facts li:first-child{border-top:1px solid var(--line)}
+
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px}
+table{border-collapse:collapse;width:100%}
+td{padding:9px 0;border-bottom:1px solid var(--line)}
+td:last-child{text-align:right;font-variant-numeric:tabular-nums}
+tr:last-child td{border-bottom:0}
+.small{font-size:.92rem;color:var(--muted);margin:14px 0 0}
+
+.areas{display:flex;flex-wrap:wrap;gap:8px;padding:0;margin:0;list-style:none}
+.areas li{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 16px;font-size:.95rem}
+
+.contact{background:var(--ink);color:#fff}
+.contact h2{color:#fff}
+.contact .lead{color:#c3d1de}
+.contact address{font-style:normal;margin:0 0 20px}
+.contact a.txt{color:var(--brass)}
+footer{padding:22px 0;font-size:.88rem;color:var(--muted);text-align:center}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top">Ultimate Plumbing Corporation</a>
+    <nav>
+      <a class="hide" href="#services">Services</a>
+      <a class="hide" href="#about">About</a>
+      <a class="hide" href="#hours">Hours</a>
+      <a class="btn" href="tel:+18454691995">Call now</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <h1>Plumbing done right, close to home.</h1>
+      <p>Repairs, installs and drain work for homes and businesses in Monroe and across Orange County, New York.</p>
+      <a class="phone" href="tel:+18454691995">(845) 469-1995</a>
+      <div class="actions">
+        <a class="btn" href="tel:+18454691995">Call for a plumber</a>
+        <a class="btn ghost" href="#hours">See hours</a>
+      </div>
+    </div>
+  </div>
+
+  <section id="services">
+    <div class="wrap">
+      <h2>What we fix and install</h2>
+      <p class="lead">Call us with the problem. We’ll tell you what it takes to fix it.</p>
+      <div class="services">
+        <div><h3>Leak repair</h3><p>Dripping faucets, leaking pipes and fixtures that won’t shut off.</p></div>
+        <div><h3>Drain cleaning</h3><p>Clogged sinks, tubs, toilets and slow main lines.</p></div>
+        <div><h3>Water heaters</h3><p>Repair and replacement of tank and tankless units.</p></div>
+        <div><h3>Fixtures</h3><p>Faucets, sinks, toilets, showers and garbage disposals.</p></div>
+        <div><h3>Pipe work</h3><p>Repiping, new lines and replacing worn or damaged pipe.</p></div>
+        <div><h3>Remodels and new work</h3><p>Plumbing for bathroom and kitchen projects, residential and commercial.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" style="background:var(--card)">
+    <div class="wrap split">
+      <div class="about">
+        <h2>A local plumber you can reach</h2>
+        <p>Ultimate Plumbing Corporation is a plumbing contractor on Route 17M in Monroe, in Orange County, New York. Customers rate the business 5.0 on its Google listing.</p>
+        <p>When you call, you reach the shop directly. Tell us what’s wrong and we’ll set up a visit.</p>
+        <ul class="facts">
+          <li><strong>Based in:</strong> Monroe, NY</li>
+          <li><strong>Works on:</strong> Homes and commercial properties</li>
+          <li><strong>Best way to reach us:</strong> Phone</li>
+        </ul>
+      </div>
+      <div class="card" id="hours">
+        <h2 style="font-size:1.6rem">Office hours</h2>
+        <table>
+          <tr><td>Monday – Thursday</td><td>9:00 am – 5:00 pm</td></tr>
+          <tr><td>Friday</td><td>9:00 am – 12:00 pm</td></tr>
+          <tr><td>Saturday – Sunday</td><td>Call to ask</td></tr>
+        </table>
+        <p class="small">Have an urgent problem outside these hours? Call anyway and ask what’s available.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="areas">
+    <div class="wrap">
+      <h2>Where we work</h2>
+      <p class="lead">Based in Monroe and serving nearby Orange County towns.</p>
+      <ul class="areas">
+        <li>Monroe</li><li>Harriman</li><li>Highland Mills</li><li>Central Valley</li>
+        <li>Chester</li><li>Goshen</li><li>Washingtonville</li><li>Middletown</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <h2>Need a plumber?</h2>
+      <p class="lead">Call during office hours and tell us what’s going on.</p>
+      <address>
+        Ultimate Plumbing Corporation<br>
+        1075 State Route 17M<br>
+        Monroe, NY 10950
+      </address>
+      <div class="actions">
+        <a class="btn" href="tel:+18454691995">Call (845) 469-1995</a>
+        <a class="btn ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Ultimate+Plumbing+Corporation+1075+NY-17M+Monroe+NY+10950" target="_blank" rel="noopener">Get directions</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 Ultimate Plumbing Corporation. Monroe, New York.</div>
+</footer>
+
+</body>
+</html>
